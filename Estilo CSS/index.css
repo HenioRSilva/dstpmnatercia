@@ -112,11 +112,12 @@ div, aside{
   background: #036;
   }
 div{
-    flex: 1 1 50px;
+    flex: 1 1 80px;
     }
 aside{
   flex: 0.2 1 1px;
 }
+
 .efeitoum{
   margin: 5px 0;
   max-width: 90px;
@@ -350,18 +351,18 @@ section.top ul li a {
   aside{
       flex: 1 1 100vh;
       order: 3;
-       }
+      }
 
   footer{
-     flex: 1 1 100vh;
+      flex: 1 1 100vh;
       order: 4;
       }
   .redesocial{
-    order: 6;
-  }
+      order: 6;
+      }
   .nav_links{
     order: 5;
- }
+    }
 }
 
 @media only screen and (max-width: 874px){

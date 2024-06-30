@@ -10,59 +10,65 @@
     --text: #CEC0E0;
     --widget-background: #3A2D54;
     }
-
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     }
-main{
-    font-family: 'Courier New', Couriermonospace;
-    display: flex;
+#mainEquipamento{
+    padding: 10px;
+    background:url('../Imagem/imgTI.avif');
+    
+    margin: 0; 
+    display: flex; 
     justify-content: center;
+    width: auto;
+    height: auto;
     background-size: 85rem;
-    background-repeat: no-repeat;
-    }
+}
+
 /* AQUI FOI FEITO O CARD*/
 table{
     align-items: center;
     }
 .tabs_head{
-    color: white;
-    padding: 30px;
-    max-width: auto;
+    background: url('../Imagem/imgBannerPMMG.jpeg') no-repeat;
+    background-size: 750px;
+    background-position: center;
+    color: red;
+    text-shadow: black 2px 5px 10px;
+    max-width: 600px;
     width: 100%;
     max-height: auto;
     height: 100%;
     display: flex;
     text-align: justify;
-    margin: 10px;
-    border-radius: 16px;
-    background-color: var(--widget-background);
+    margin: 5px;
+    border-radius: 26px;
     border: 1px solid var(--primary-border);
     overflow-y: auto;
     overflow-x: auto;
     transition: all 0.45s ease-in-out;
-    
     }
 .tab_titulo{
     margin: 0;
-    padding: .7em;
+    padding: 10px;
     text-decoration: underline;
     background: var(--widget-background);
     color: rgb(255, 238, 1);
     font-size: 0.8rem;
     border: 2px solid;
     display: flex;
-    text-align: justify;
+    text-align: left;
     overflow-y: auto;
     overflow-x: auto;
     height: 45px;
     transition: all 0.45s ease-in-out;
+    z-index: 100;
     }
 .tab_dados{
     margin: 0;
-    padding: .7em;
+    padding: 0 55px 0 5px;
     text-decoration: underline;
     background: var(--widget-background);
     color: rgb(255, 255, 255);
@@ -105,7 +111,7 @@ table{
 .tabs_img{
     display: flex;
     height: 100%;
-    max-width: 150px;
+    max-width: 250px;
     width: 100%;
     transition: all 0.5s;
     border: 5px solid white;
@@ -115,6 +121,7 @@ table{
     text-align: justify;
     overflow-y: auto;
     overflow-x: auto;
+    /*mix-blend-mode: multiply;*/
     }
 
 /*links para avançar e recuar*/
