@@ -110,9 +110,10 @@ div, aside{
   color: white;
   text-align: center;
   background: #036;
+  padding-bottom: 30px;
   }
 div{
-    flex: 1 1 80px;
+    flex: 1 1 90px;
     }
 aside{
   flex: 0.2 1 1px;
@@ -128,11 +129,11 @@ aside{
   border-radius: 50%;
   object-fit: cover;
   transition: all 0.5s;
-  cursor: help;
+  cursor: pointer;
   }
 .efeitoum:hover{
   -webkit-transform: scale(1.5);
-  transform: rotateY(180deg);
+  transform: scale();
   border: 2px solid red;
   border-radius: 50%;
   }
@@ -268,7 +269,7 @@ footer {
   bottom: 0;
   right: 0;
   background: #036;
-  width: 100%;
+  width: auto;
   }
   
   footer section {
