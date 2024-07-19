@@ -118,7 +118,6 @@ div{
 aside{
   flex: 0.2 1 1px;
 }
-
 .efeitoum{
   margin: 5px 0;
   max-width: 90px;
@@ -269,7 +268,7 @@ footer {
   bottom: 0;
   right: 0;
   background: #036;
-  width: auto;
+  width: 100%;
   }
   
   footer section {
