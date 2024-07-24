@@ -33,8 +33,8 @@ table{
     }
 .tabs_head{
     background: url('../Imagem/imgBannerPMMG.jpeg') no-repeat;
-    /*background-size: 750px;*/
-    background-size: 500px;
+    background-size: 750px;
+    /*background-size: 500px;*/
     background-position: center;
     color: red;
     text-shadow: black 2px 5px 10px;
